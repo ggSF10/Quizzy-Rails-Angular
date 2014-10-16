@@ -1,0 +1,31 @@
+<script type='text/template' class='all-quizzes-template'>
+  <h2 class='title-text' data-id='<%%= id %>'><%%= title %></h2>
+</script>
+
+<script type='text/template' class='multiple-choice-question-template'>
+  <h3><%%= question %></h3>
+  <%% _.each(choices, function(choice){ %>
+    <input type='radio' name='choice' value='<%%=choice%>'><%%= choice %><br>
+  <%% }) %>
+  <input type='submit' class='question-choice' value='Submit'>
+  <div class='validation'></div>
+</script>
+
+<script type='text/template' class='single-score-template'>
+  <h3>Final Score: <%%= score %></h3>
+</script>
+
+<h2>Quizzy Quizzzz</h2>
+
+<div class='user-name-container'>
+  Name: <input type='text' class='user-name'>
+</div>
+
+<div class='all-quizzes'>
+</div>
+
+<div class='current-question'>
+</div>
+
+<div class='final-score'>
+</div>
