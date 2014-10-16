@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QuizzyNet - Rails API
 
 This is a pared down Rails-based API with which you can integrate your Quizzy single page application. Its database uses quizzes, questions, and scores.
@@ -431,3 +432,9 @@ PATCH/PUT /quizzes/:id/scores/:id
     }
 }
 ```
+=======
+Quizzy-Rails-Angular
+====================
+
+a Quiz taking application made with Rails and Angular
+>>>>>>> e60837679449919c9989db5c1f5a9ddb332d75da
