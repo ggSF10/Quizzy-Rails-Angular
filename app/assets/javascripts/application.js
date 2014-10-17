@@ -13,8 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require underscore
-//= require_tree ./models
-//= require_tree ./views
-//= require_tree ./controllers 
+//= require angular
+//= require angular-resource
+//= require angular/app.js
+//=	require_tree ./angular/models
+//= require_tree ./angular/controllers
+
 // Your Quizzy code should go here.
